@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    background-color: gainsboro;
+}
+img{
+    width: 200px;
+    height: 170px;
+}
+.pic1{
+    display: flex;
+    margin: 60px;
+}
+.img1{
+    margin-left: 200px;
+    border: 1px solid white;
+    width: 320px;
+    height: 350px;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.pic2{
+    display: flex;
+    margin: 60px;
+}
+.img1 button{
+    width: 90px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
